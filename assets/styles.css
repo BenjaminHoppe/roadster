@@ -4,14 +4,21 @@ body {
 }
 
 main {
-  width: 40vw;
+  width: 600px;
   heigth: 100vh;
+  position: absolute;
 }
 
 .logo {
   width: 100px;
   top: 50px;
   left: 50px;
+  position: absolute;
+}
+
+.menu {
+  top: 50px;
+  right: 0px;
   position: absolute;
 }
 
