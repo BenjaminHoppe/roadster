@@ -52,14 +52,6 @@ h1 {
   position: relative;
 }
 
-.hero >img {
-  height: 100vh;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  position: absolute;
-}
-
 .paragraph {
   color: gray;
   position: relative;
@@ -95,6 +87,26 @@ h1 {
   margin: 15px 30px;
   transition: margin 0.3s;
 }
+
+.hero >img {
+  height: 100vh;
+  top: 0;
+  right: 0;
+  z-index: -100;
+  position: absolute;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 750px;
+  height: 200px;
+  z-index: 100;
+}
+
+
 
 
 
