@@ -22,6 +22,28 @@ main {
   position: absolute;
 }
 
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  left: 100px;
+  top: 200px;
+}
+
+.pages > p {
+  font-family: "HelveticaNeue-Light", sans-serif;
+  font-weight: 400;
+}
+.line {
+
+  display: inline-block;
+  border-top: 2px solid #000;
+  margin: 0 0.7em 4px 0.7em;
+  /* margin: 0.7em 1em 0 1em; */
+  padding: 0;
+  width: 100px;
+}
 
 
 
