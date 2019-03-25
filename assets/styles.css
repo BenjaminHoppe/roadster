@@ -97,7 +97,7 @@ h1 {
 }
 
 .container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   right: 0;
   bottom: 0;
   position: absolute;
@@ -105,6 +105,39 @@ h1 {
   height: 200px;
   z-index: 100;
 }
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.top > h3 {
+  color: white;
+  font-size: 35px;
+  padding: 0 40px;
+  font-family: Futura, sans-serif;
+  font-weight: 300;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+
+}
+
+.bottom > p {
+  color: gray;
+  padding: 0 65px;
+  font-family: MontserratLight, sans-serif;
+  font-size: 15px;
+
+}
+
 
 
 
