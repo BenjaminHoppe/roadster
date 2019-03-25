@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>menu</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="menu" transform="translate(1.000000, 0.000000)" stroke="#000000" stroke-width="2">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu" stroke="#000000" stroke-width="2">
             <path d="M3,7 L15,7" id="Path"></path>
-            <path d="M5,13 L13,13" id="Path" stroke-linejoin="round"></path>
+            <path d="M7,12.5 L11,12.5" id="Path" stroke-linejoin="round"></path>
             <path d="M0,1 L18,1" id="Path" stroke-linejoin="round"></path>
         </g>
     </g>
