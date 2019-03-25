@@ -86,9 +86,16 @@ h1 {
   font-weight: 300;
 }
 
-.readMore > img {
-  margin: 0 20px;
+.readMore > a {
+  margin: 15px 20px;
+  transition: margin 0.3s;
 }
+
+.readMore > a:hover {
+  margin: 15px 30px;
+  transition: margin 0.3s;
+}
+
 
 
 
