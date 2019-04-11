@@ -3,10 +3,15 @@ body {
   padding: 0;
 }
 
-.landing {
+.landing, .baseSpecs {
   width: 600px;
-  heigth: 100vh;
+  height: 100vh;
   position: absolute;
+}
+
+/* temp way of hiding pages */
+.landing {
+  display: none;
 }
 
 .logo {
@@ -96,7 +101,7 @@ h1 {
   position: absolute;
 }
 
-.container {
+.imgContainer {
   background: rgba(0, 0, 0, 0.7);
   right: 0;
   bottom: 0;
