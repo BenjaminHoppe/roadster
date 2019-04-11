@@ -93,7 +93,7 @@ h1 {
   transition: margin 0.3s;
 }
 
-.hero >img {
+.hero > img {
   height: 100vh;
   top: 0;
   right: 0;
