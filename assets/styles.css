@@ -10,9 +10,11 @@ body {
 }
 
 /* temp way of hiding pages */
-.landing {
+/* .landing {
   display: none;
-}
+} */
+
+
 
 .logo {
   width: 100px;
@@ -83,15 +85,24 @@ h1 {
   font-weight: 300;
 }
 
-.readMore > a {
+.readMore > button {
   margin: 15px 20px;
   transition: margin 0.3s;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
-.readMore > a:hover {
+.readMore > button:hover {
   margin: 15px 30px;
   transition: margin 0.3s;
 }
+
+
 
 .hero > img {
   height: 100vh;
@@ -140,7 +151,12 @@ h1 {
   padding: 0 65px;
   font-family: MontserratLight, sans-serif;
   font-size: 15px;
+}
 
+
+
+.baseSpecsToggle {
+  display: none;
 }
 
 
